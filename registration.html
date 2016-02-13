@@ -1,0 +1,169 @@
+<html>
+
+<head>
+<title>Registration</title>
+<!--<link rel="stylesheet" type="text/css" href="registration.css">-->
+<style>
+.menu{
+    background-color: #4CAF50;
+    padding: 0px;
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+li {
+float:left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4CAFFF;
+}
+
+#roundedcorners {
+    border-radius: 25px;
+    border: 2px solid none;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+    background-color: none;
+    margin: 20px;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.button {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 0px;
+    border-radius: 55px;
+}
+h4{
+font-size: 18px;    
+color: white;
+}
+h2{
+ color:white;   
+}
+.menuleft:hover{
+   background-color: #4CAFFF; 
+    
+}
+.menuleft{
+ padding:0px 5px;   
+}
+h4{
+display: block;
+padding: 3px 10px;
+}
+td{
+vertical-align: middle;
+    color: #4CAF50;
+}
+body{
+  font-family:sans-serif;
+background-color: #4CAF50;    
+}
+.footer{
+width: 100%;
+height: 5%;    
+}    
+
+#roundedcorners td h4{
+    vertical-align: text-bottom;
+}
+
+#roundedcorners td{
+    vertical-align: text-bottom;
+}    
+</style>
+</head>    
+
+<body>
+<div class="menu" style="float:top; width: 100%; height:11%;">
+    <div class="menuleft" style="float:left;">
+    <a href="registration.html" class="logo">
+    <img src="icons/bookIcon.png" width="50px" height="50px" style="float:left;">
+    <h2 style="float:left;">Book Store</h2>
+    </a>
+    </div>
+    <div class="menuright" style="float:left;">
+    <ul> 
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="userpro.html">Profile</a></li>
+        <li><a href="shoppingcart.html">Shopping Cart</a></li>
+        <li><a href="payment.html">Payment</a></li>
+    </ul>   
+    </div>    
+</div>    
+
+<img src="icons/book6.jpg" width="100%" height="100%">    
+<div>
+<center><strong><h1 style="text-align:center; color:white;">New User? Register Here.</h1></strong></center>
+<center>
+<table id="roundedcorners">
+	<tr>
+	<td><h4>Your name:</h4></td>
+	<td><input type="text" placeholder="(e.g.) Sean Paul"></td>
+	</tr>
+	<tr>
+    <td><h4>Username: </h4></td>
+	<td><input type="text" placeholder="(e.g.) spaul12"></td>
+	</tr>
+	<tr>
+	<td><h4>Password: </h4></td>
+	<td><input type="password"  placeholder="********"></td>
+	</tr>
+	<tr>
+	<td><h4>Password again: </h4></td>
+	<td><input type="password"></td>
+	</tr>
+    <tr>
+    <td><h4>Gender: </h4></td>
+	<td style="color:white;"><input type="radio" value="male">Male <input type="radio" value="female">Female</td>
+	</tr>
+    <td><h4>Date of Birth: </h4></td>
+	<td><input type="date" style="color:gray;"></td>
+	</tr>
+	<tr>
+    <td><h4>Address: </h4></td>
+	<td><textarea placeholder="Optional..."></textarea></td>
+	</tr>
+	<tr>
+    <td><h4>Zipcode: </h4></td>
+	<td><input type="text" placeholder="111111" maxlength="6"></td>
+	</tr>
+	<tr>
+	<td colspan="2"><input type="button" value="Create your Bookstore account" class="button" style="width:100%;"></td>
+	</tr>
+</table>
+</center>
+</div>
+    
+<div class="footer">
+    <center>
+    <h5 style="color:white;">Copyright &copy; 1995-2016 Kanak Sharma. All Rights Reserved.</h5>
+    </center>
+</div>
+    
+</body>
+</html>
